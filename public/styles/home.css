@@ -1,0 +1,21 @@
+body {
+	background-color: lightslategray;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.main-title {
+	color: brown;
+	width: 100%;
+	text-align: center;
+}
+:hover .main-title {
+	cursor: pointer;
+}
+.game-screen {
+	background-color: black;
+	border: 2px solid black;
+	margin-top: 3rem;
+}
